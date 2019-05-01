@@ -1,24 +1,105 @@
-.App {
-  text-align: center;
+.Mother-container {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+  align-content: stretch;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  text-transform: capitalize;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #34A5DA;
+  min-height: 10vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: center;
+	align-content: stretch;
+  font-size: calc(10px + 2vmin);
+  color: #000000;
+  margin-top: 0;
+  width:100vh;
+}
+.Home{
+  margin-left: 2em;
+}
+.Info-box {
+  background-color: #222222;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: red;
+  width:100vh;
 }
+.White-box {
+  background-color: #EBEBEB;
+  min-height: 40vh;
+  color: black;
+  width:80vh;
+}
+.Links-bar {
+  background-color: #222222;
+  min-height: 7vh;
+  color: black;
+  width:80vh;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+  align-content: stretch;
+  
+  
+  
+}
+.Previous-button {
+  background: #222222;
+  color:white;
+  border:none;
+  text-transform: capitalize;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: .7em;
 
+}
+.Edit-delete-new {
+  background: #222222;
+  display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+  align-content: stretch;
+  
+
+}
+.Next-button {
+  background: #222222;
+  color: white;
+  border:none;
+  text-transform: capitalize;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: .7em;
+
+}
+.Button {
+  background-color: #34A5DA;
+  border:none;
+  color:white;
+  font-family: 'Muli', sans-serif;
+  font-weight: bold;
+  font-size: .7em;
+  margin-left: 2em;
+  border-radius: 10px;
+  height: 1.7em;
+}
 .App-link {
   color: #61dafb;
 }
